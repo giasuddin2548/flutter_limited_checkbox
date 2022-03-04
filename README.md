@@ -11,29 +11,64 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+flutter_limited_select is help you checkbox functionality like single selection, limited selection, and multiple selection in flutter.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Custom CheckBox
+CheckBox List.
+Single Selection.
+Limited Selection.
+Multiple or unlimited selection.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add dependency #
+dependencies:
+  flutter_limited_select: ^0.0.1
 
-## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+Easy to use
+import 'package:flutter_limited_select/flutter_limited_select.dart';
+
+
+Single Selection form checkbox list
+```dart
+FlutterSingleSelect(
+        singleValueList: mySingleValueList,
+        onChanged: (index){
+
+        },
+
+      )
+```
+
+Limited Selection form checkbox list
+```dart
+FlutterLimitedSelect(
+
+        limit: 3,
+        limitedValueList: mySingleValueList,
+        onChanged: (List<FlutterSelectModel> list){
+
+        },
+      )
+```
+
+Unlimited Selection form checkbox list
 
 ```dart
-const like = 'sample';
+FlutterUnlimitedSelect(
+
+        unlimitedCheckList: mySingleValueList,
+        onChanged: (List<FlutterSelectModel> list){
+
+        },
+      )
 ```
+
+
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Read the documentation carefully before using this packages.
