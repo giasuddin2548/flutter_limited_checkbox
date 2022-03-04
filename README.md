@@ -24,13 +24,17 @@ Multiple or unlimited selection.
 ## Getting started
 
 Add dependency #
+
+```dart
 dependencies:
   flutter_limited_select: ^0.0.1
-
+```
 
 Easy to use
+```dart
 import 'package:flutter_limited_select/flutter_limited_select.dart';
 
+```
 
 Single Selection form checkbox list
 ```dart
