@@ -1,7 +1,6 @@
 library flutter_limited_select;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/flutter_select_model.dart';
+export 'src/flutter_single_select.dart';
+export 'src/flutter_limited_select.dart';
+export 'src/flutter_unlimited_select.dart';
