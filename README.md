@@ -15,11 +15,11 @@ flutter_limited_select is help you checkbox functionality like single selection,
 
 ## Features
 
-Custom CheckBox
-CheckBox List.
-Single Selection.
-Limited Selection.
-Multiple or unlimited selection.
+  * Custom CheckBox
+  * CheckBox List.
+  * Single Selection.
+  * Limited Selection.
+  * Multiple or unlimited selection.
 
 ## Getting started
 
