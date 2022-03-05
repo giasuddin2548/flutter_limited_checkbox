@@ -36,7 +36,7 @@ import 'package:flutter_limited_select/flutter_limited_select.dart';
 
 ```
 
-Single Selection form checkbox list
+#Single Selection form checkbox list
 ```dart
 FlutterSingleSelect(
         singleValueList: mySingleValueList,
