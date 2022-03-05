@@ -15,7 +15,7 @@ and the Flutter guide for
 
 > flutter_limited_select is help you checkbox functionality like single selection, limited selection, and multiple selection in flutter.
 
-- Demo
+
 <img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/single.gif" width="250" height="500"><img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/limited.gif" width="250" height="500"><img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/unlimited.gif" width="250" height="500">
 
 ## Features
@@ -52,7 +52,7 @@ FlutterSingleSelect(
       )
 ```
 > Single CheckBox Demo
-<img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/single.gif" width="250" height="500"><img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/limited.gif" width="250" height="500"><img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/unlimited.gif" width="250" height="500">
+<img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/single.gif" width="250" height="500">
 
 ### Limited Selection form checkbox list
 ```dart
