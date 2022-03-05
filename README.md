@@ -16,9 +16,7 @@ and the Flutter guide for
 > flutter_limited_select is help you checkbox functionality like single selection, limited selection, and multiple selection in flutter.
 
 
-<img src="https://cricket.mobilestorebd.com/images/tempImage/single.gif" width="250" height="500">
-<img src="https://cricket.mobilestorebd.com/images/tempImage/limited.gif" width="250" height="500">
-<img src="https://cricket.mobilestorebd.com/images/tempImage/unlimited.gif" width="250" height="500">
+<img src="https://cricket.mobilestorebd.com/images/tempImage/single.gif" width="250" height="500"><img src="https://cricket.mobilestorebd.com/images/tempImage/limited.gif" width="250" height="500"><img src="https://cricket.mobilestorebd.com/images/tempImage/unlimited.gif" width="250" height="500">
 
 ## Features
 
