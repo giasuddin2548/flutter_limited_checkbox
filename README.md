@@ -30,13 +30,13 @@ dependencies:
   flutter_limited_select: ^0.0.1
 ```
 
-Easy to use
+###Easy to use
 ```dart
 import 'package:flutter_limited_select/flutter_limited_select.dart';
 
 ```
 
-#Single Selection form checkbox list
+###Single Selection form checkbox list
 ```dart
 FlutterSingleSelect(
         singleValueList: mySingleValueList,
@@ -49,7 +49,7 @@ FlutterSingleSelect(
 
 <img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/single.gif" width="250" height="500" />
 
-Limited Selection form checkbox list
+###Limited Selection form checkbox list
 ```dart
 FlutterLimitedSelect(
 
@@ -61,7 +61,7 @@ FlutterLimitedSelect(
       )
 ```
 
-Unlimited Selection form checkbox list
+###Unlimited Selection form checkbox list
 
 ```dart
 FlutterUnlimitedSelect(
