@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Select Only 3 Box'),
     );
   }
 }
@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   List<FlutterSelectModel> mySingleValueList=[];
   List<FlutterSelectModel> mySelectedList=[];
 
-  var limit=4;
+  var limit=3;
 
 
 
