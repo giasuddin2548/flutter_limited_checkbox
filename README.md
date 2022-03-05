@@ -47,7 +47,7 @@ FlutterSingleSelect(
       )
 ```
 
-<img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/single.gif" width="250" height="600" />
+<img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/single.gif" width="250" height="500" />
 
 Limited Selection form checkbox list
 ```dart
