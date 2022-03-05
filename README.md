@@ -46,7 +46,7 @@ FlutterSingleSelect(
 
       )
 ```
-
+> Single CheckBox Demo
 <img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/single.gif" width="250" height="500" />
 
 ### Limited Selection form checkbox list
@@ -60,6 +60,9 @@ FlutterLimitedSelect(
         },
       )
 ```
+> Limited CheckBox Demo
+<img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/limited.gif" width="250" height="500" />
+
 
 ### Unlimited Selection form checkbox list
 
@@ -72,6 +75,9 @@ FlutterUnlimitedSelect(
         },
       )
 ```
+
+> Unlimited CheckBox Demo
+<img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/unlimited.gif" width="250" height="500" />
 
 
 
