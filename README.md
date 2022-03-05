@@ -12,8 +12,11 @@ and the Flutter guide for
 -->
 [![Build Status](https://github.com/dart-lang/pub/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/pub/actions/workflows/test.yaml?query=workflow%3A%22Dart+CI%22+branch%3Amaster)
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-flutter_limited_select is help you checkbox functionality like single selection, limited selection, and multiple selection in flutter.
-<img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/single.gif" width="300"><img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/limited.gif" width="300"><img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/unlimited.gif" width="300">
+
+> flutter_limited_select is help you checkbox functionality like single selection, limited selection, and multiple selection in flutter.
+
+- Demo
+<img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/single.gif" width="250" height="500"><img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/limited.gif" width="250" height="500"><img src="https://github.com/giasuddin2548/flutter_limited_select/blob/master/screenshot/unlimited.gif" width="250" height="500">
 
 ## Features
 
