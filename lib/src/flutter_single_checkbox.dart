@@ -5,7 +5,7 @@ import '../flutter_limited_checkbox.dart';
 
 //ignore: must_be_immutable
 class FlutterSingleCheckbox extends StatefulWidget {
-   List<FlutterSelectModel> singleValueList;
+   List<FlutterLimitedCheckBoxModel> singleValueList;
    Function(int index) onChanged;
    TextStyle? titleTextStyle;
    Color? checkColor;

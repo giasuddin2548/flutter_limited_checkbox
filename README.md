@@ -38,7 +38,7 @@ flutter_limited_checkbox: ^0.0.4
 ### Easy to use
 
 
-### Single Selection form checkbox list
+### Single CheckBox Selection
 ```dart
 FlutterSingleCheckbox(
         singleValueList: mySingleValueList,
@@ -51,7 +51,7 @@ FlutterSingleCheckbox(
 > Single CheckBox Demo
 <img src="https://cricket.mobilestorebd.com/images/tempImage/single.gif" width="250" height="500">
 
-### Limited Selection form checkbox list
+### Limited CheckBox Selection
 ```dart
 FlutterLimitedCheckbox(
 
@@ -66,7 +66,7 @@ FlutterLimitedCheckbox(
 <img src="https://cricket.mobilestorebd.com/images/tempImage/limited.gif" width="250" height="500" />
 
 
-### Unlimited Selection form checkbox list
+### Unlimited CheckBox Selection
 
 ```dart
 FlutterUnlimitedCheckbox(

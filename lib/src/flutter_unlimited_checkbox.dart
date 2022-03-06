@@ -4,8 +4,8 @@ import '../flutter_limited_checkbox.dart';
 
 //ignore: must_be_immutable
 class FlutterUnlimitedCheckbox extends StatefulWidget {
-  List<FlutterSelectModel> unlimitedCheckList;
-  Function(List<FlutterSelectModel> selectedList) onChanged;
+  List<FlutterLimitedCheckBoxModel> unlimitedCheckList;
+  Function(List<FlutterLimitedCheckBoxModel> selectedList) onChanged;
   TextStyle? titleTextStyle;
   Color? checkColor;
   Color? activeColor;
@@ -61,7 +61,7 @@ class _FlutterUnlimitedCheckboxState extends State<FlutterUnlimitedCheckbox> {
                   widget.unlimitedCheckList[index].isSelected=false;
                 }
               });
-              List<FlutterSelectModel>  checkedList=widget.unlimitedCheckList.where((element) => element.isSelected==true).toList();
+              List<FlutterLimitedCheckBoxModel>  checkedList=widget.unlimitedCheckList.where((element) => element.isSelected==true).toList();
 
               widget.onChanged(checkedList);
 

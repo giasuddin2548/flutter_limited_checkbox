@@ -32,14 +32,14 @@ class _MyHomePageState extends State<MyHomePage> {
   var selectedTitle='';
   var selectedID=0;
 
-  List<FlutterSelectModel> mySingleValueList=[];
+  List<FlutterLimitedCheckBoxModel> mySingleValueList=[];
   @override
   void initState() {
-    mySingleValueList.add(FlutterSelectModel(isSelected: false,  selectTitle: 'Option-1', selectId: 1));
-    mySingleValueList.add(FlutterSelectModel(isSelected: false,  selectTitle: 'Option-2', selectId: 2));
-    mySingleValueList.add(FlutterSelectModel(isSelected: false,  selectTitle: 'Option-3', selectId: 3));
-    mySingleValueList.add(FlutterSelectModel(isSelected: false,  selectTitle: 'Option-4', selectId: 4));
-    mySingleValueList.add(FlutterSelectModel(isSelected: false,  selectTitle: 'Option-5', selectId: 5));
+    mySingleValueList.add(FlutterLimitedCheckBoxModel(isSelected: false,  selectTitle: 'Option-1', selectId: 1));
+    mySingleValueList.add(FlutterLimitedCheckBoxModel(isSelected: false,  selectTitle: 'Option-2', selectId: 2));
+    mySingleValueList.add(FlutterLimitedCheckBoxModel(isSelected: false,  selectTitle: 'Option-3', selectId: 3));
+    mySingleValueList.add(FlutterLimitedCheckBoxModel(isSelected: false,  selectTitle: 'Option-4', selectId: 4));
+    mySingleValueList.add(FlutterLimitedCheckBoxModel(isSelected: false,  selectTitle: 'Option-5', selectId: 5));
     super.initState();
   }
 

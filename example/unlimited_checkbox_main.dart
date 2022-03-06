@@ -31,8 +31,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
 
-  List<FlutterSelectModel> mySingleValueList=[];
-  List<FlutterSelectModel> mySelectedList=[];
+  List<FlutterLimitedCheckBoxModel> mySingleValueList=[];
+  List<FlutterLimitedCheckBoxModel> mySelectedList=[];
 
   var limit=4;
 
@@ -40,11 +40,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    mySingleValueList.add(FlutterSelectModel(isSelected: false,  selectTitle: 'Option-1', selectId: 1));
-    mySingleValueList.add(FlutterSelectModel(isSelected: false,  selectTitle: 'Option-2', selectId: 2));
-    mySingleValueList.add(FlutterSelectModel(isSelected: false,  selectTitle: 'Option-3', selectId: 3));
-    mySingleValueList.add(FlutterSelectModel(isSelected: false,  selectTitle: 'Option-4', selectId: 4));
-    mySingleValueList.add(FlutterSelectModel(isSelected: false,  selectTitle: 'Option-5', selectId: 5));
+    mySingleValueList.add(FlutterLimitedCheckBoxModel(isSelected: false,  selectTitle: 'Option-1', selectId: 1));
+    mySingleValueList.add(FlutterLimitedCheckBoxModel(isSelected: false,  selectTitle: 'Option-2', selectId: 2));
+    mySingleValueList.add(FlutterLimitedCheckBoxModel(isSelected: false,  selectTitle: 'Option-3', selectId: 3));
+    mySingleValueList.add(FlutterLimitedCheckBoxModel(isSelected: false,  selectTitle: 'Option-4', selectId: 4));
+    mySingleValueList.add(FlutterLimitedCheckBoxModel(isSelected: false,  selectTitle: 'Option-5', selectId: 5));
     super.initState();
   }
 
@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: FlutterUnlimitedCheckbox(
         activeColor: Colors.red,
         unlimitedCheckList: mySingleValueList,
-        onChanged: (List<FlutterSelectModel> list){
+        onChanged: (List<FlutterLimitedCheckBoxModel> list){
           mySelectedList.clear();
           mySelectedList=[...list];
 

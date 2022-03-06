@@ -1,5 +1,5 @@
 
-class FlutterSelectModel{
+class FlutterLimitedCheckBoxModel{
 
   final int selectId;
   final String selectTitle;
@@ -9,7 +9,7 @@ class FlutterSelectModel{
   final String? extraText3;
   bool isSelected;
 
-  FlutterSelectModel({
+  FlutterLimitedCheckBoxModel({
    required this.selectId,
    required this.selectTitle,
     this.selectValue,
