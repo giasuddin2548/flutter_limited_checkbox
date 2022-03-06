@@ -1,3 +1,6 @@
+## 0.0.4
+- Mirror bug fixed
+
 ## 0.0.3
 - Readme updated
 

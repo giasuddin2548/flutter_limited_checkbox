@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_limited_select/flutter_limited_select.dart';
-
+import 'package:flutter_limited_checkbox/flutter_limited_checkbox.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Unlimited Checkbox Selection'),
+      home: const MyHomePage(title: 'Select Only 3 Box'),
     );
   }
 }
@@ -34,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   List<FlutterSelectModel> mySingleValueList=[];
   List<FlutterSelectModel> mySelectedList=[];
 
-  var limit=4;
+  var limit=3;
 
 
 
@@ -54,13 +53,14 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: FlutterUnlimitedSelect(
+      body: FlutterLimitedCheckbox(
         activeColor: Colors.red,
-        unlimitedCheckList: mySingleValueList,
+        limit: limit,
+        limitedValueList: mySingleValueList,
         onChanged: (List<FlutterSelectModel> list){
           mySelectedList.clear();
           mySelectedList=[...list];
-
+          print('Selected List: ${mySelectedList.length}');
           for (var element in mySelectedList) {
             print(element.selectTitle);
           }

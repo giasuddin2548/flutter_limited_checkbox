@@ -1,7 +1,7 @@
-name: flutter_limited_select
-description: Flutter Limited Unlimited CheckBox Project.
-version: 0.0.3
-homepage: https://github.com/giasuddin2548/flutter_limited_select
+name: flutter_limited_checkbox
+description: Flutter Limited CheckBox Project.
+version: 0.0.4
+homepage: https://github.com/giasuddin2548/flutter_limited_checkbox
 
 
 environment:

@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
-import '../flutter_limited_select.dart';
+import '../flutter_limited_checkbox.dart';
 
 //ignore: must_be_immutable
-class FlutterLimitedSelect extends StatefulWidget {
-  List<FlutterSelectModel> limitedValueList;
-  int limit;
+class FlutterUnlimitedCheckbox extends StatefulWidget {
+  List<FlutterSelectModel> unlimitedCheckList;
   Function(List<FlutterSelectModel> selectedList) onChanged;
   TextStyle? titleTextStyle;
   Color? checkColor;
@@ -20,9 +19,8 @@ class FlutterLimitedSelect extends StatefulWidget {
   CrossAxisAlignment  crossAxisAlignmentOfRow;
 
 
-  FlutterLimitedSelect({Key? key,
-    required this.limitedValueList,
-    required this.limit,
+  FlutterUnlimitedCheckbox({Key? key,
+    required this.unlimitedCheckList,
     required this.onChanged,
     this.titleTextStyle,
     this.checkColor,
@@ -40,33 +38,30 @@ class FlutterLimitedSelect extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _FlutterLimitedSelectState createState() => _FlutterLimitedSelectState();
+  _FlutterUnlimitedCheckboxState createState() => _FlutterUnlimitedCheckboxState();
 }
 
-class _FlutterLimitedSelectState extends State<FlutterLimitedSelect> {
+class _FlutterUnlimitedCheckboxState extends State<FlutterUnlimitedCheckbox> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      itemCount: widget.limitedValueList.length,
+      itemCount: widget.unlimitedCheckList.length,
       itemBuilder: (context, index) => Row(
         mainAxisAlignment: widget.mainAxisAlignmentOfRow,
         crossAxisAlignment: widget.crossAxisAlignmentOfRow,
         children: [
           Checkbox(
-            value: widget.limitedValueList[index].isSelected,
+            value: widget.unlimitedCheckList[index].isSelected,
             onChanged: (v){
               setState(() {
-                if(widget.limitedValueList[index].isSelected==false){
-                  var checker=widget.limitedValueList.where((element) => element.isSelected==true).toList().length;
-                  if(checker<widget.limit){
-                    widget.limitedValueList[index].isSelected=true;
-                  }
+                if(widget.unlimitedCheckList[index].isSelected==false){
+                  widget.unlimitedCheckList[index].isSelected=true;
 
                 }else{
-                  widget.limitedValueList[index].isSelected=false;
+                  widget.unlimitedCheckList[index].isSelected=false;
                 }
               });
-              List<FlutterSelectModel>  checkedList=widget.limitedValueList.where((element) => element.isSelected==true).toList();
+              List<FlutterSelectModel>  checkedList=widget.unlimitedCheckList.where((element) => element.isSelected==true).toList();
 
               widget.onChanged(checkedList);
 
@@ -80,7 +75,7 @@ class _FlutterLimitedSelectState extends State<FlutterLimitedSelect> {
             focusNode: widget.focusNode,
             splashRadius: widget.splashRadius,
           ),
-          Text(widget.limitedValueList[index].selectTitle, style: widget.titleTextStyle,)
+          Text(widget.unlimitedCheckList[index].selectTitle, style: widget.titleTextStyle,)
         ],
       ),
 

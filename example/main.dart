@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_limited_select/flutter_limited_select.dart';
+import 'package:flutter_limited_checkbox/flutter_limited_checkbox.dart';
 
 
 void main() {
@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: FlutterSingleSelect(
+      body: FlutterSingleCheckbox(
         activeColor: Colors.red,
         singleValueList: mySingleValueList,
         onChanged: (index){

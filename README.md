@@ -13,7 +13,7 @@ and the Flutter guide for
 [![Build Status](https://github.com/dart-lang/pub/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/pub/actions/workflows/test.yaml?query=workflow%3A%22Dart+CI%22+branch%3Amaster)
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-> flutter_limited_select is help you checkbox functionality like single selection, limited selection, and multiple selection in flutter.
+> flutter_limited_checkbox is help you checkbox functionality like single selection, limited selection, and multiple selection in flutter.
 
 
 <img src="https://cricket.mobilestorebd.com/images/tempImage/single.gif" width="250" height="500"><img src="https://cricket.mobilestorebd.com/images/tempImage/limited.gif" width="250" height="500"><img src="https://cricket.mobilestorebd.com/images/tempImage/unlimited.gif" width="250" height="500">
@@ -32,18 +32,18 @@ and the Flutter guide for
 
 ```dart
 dependencies:
-  flutter_limited_select: ^0.0.1
+flutter_limited_checkbox: ^0.0.4
 ```
 
 ### Easy to use
 ```dart
-import 'package:flutter_limited_select/flutter_limited_select.dart';
+import 'package:flutter_limited_checkbox/flutter_limited_checkbox.dart';
 
 ```
 
 ### Single Selection form checkbox list
 ```dart
-FlutterSingleSelect(
+FlutterSingleCheckbox(
         singleValueList: mySingleValueList,
         onChanged: (index){
 
@@ -56,7 +56,7 @@ FlutterSingleSelect(
 
 ### Limited Selection form checkbox list
 ```dart
-FlutterLimitedSelect(
+FlutterLimitedCheckbox(
 
         limit: 3,
         limitedValueList: mySingleValueList,
@@ -72,7 +72,7 @@ FlutterLimitedSelect(
 ### Unlimited Selection form checkbox list
 
 ```dart
-FlutterUnlimitedSelect(
+FlutterUnlimitedCheckbox(
 
         unlimitedCheckList: mySingleValueList,
         onChanged: (List<FlutterSelectModel> list){
