@@ -36,10 +36,7 @@ flutter_limited_checkbox: ^0.0.4
 ```
 
 ### Easy to use
-```dart
-import 'package:flutter_limited_checkbox/flutter_limited_checkbox.dart';
 
-```
 
 ### Single Selection form checkbox list
 ```dart
