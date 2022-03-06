@@ -32,7 +32,7 @@ and the Flutter guide for
 
 ```dart
 dependencies:
-flutter_limited_checkbox: ^0.0.4
+flutter_limited_checkbox: ^0.0.1
 ```
 
 ### Easy to use
